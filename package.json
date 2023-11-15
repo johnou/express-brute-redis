@@ -1,6 +1,6 @@
 {
   "name": "express-brute-redis",
-  "version": "0.0.2",
+  "version": "0.0.666",
   "description": "A Redis store for express-brute",
   "keywords": [
     "express",
@@ -11,6 +11,9 @@
   "private": false,
   "scripts": {
     "test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js --captureExceptions --matchall spec"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.sulake.com/content/repositories/npm-internal/"
   },
   "repository": {
     "type": "git",
