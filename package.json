@@ -1,6 +1,6 @@
 {
   "name": "express-brute-redis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Redis store for express-brute",
   "keywords": [
     "express",
@@ -22,8 +22,8 @@
     "async": "~0.2.9"
   },
   "dependencies": {
-    "underscore": "~1.5.1",
-    "redis": "~0.10.0",
-    "express-brute": "~0.4.2"
+    "express-brute": "~0.4.2",
+    "redis": "~4.3.1",
+    "underscore": "^1.13.6"
   }
 }
